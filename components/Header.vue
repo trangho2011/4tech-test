@@ -62,6 +62,7 @@
       class="nav-wrap__mobile"
       :class="{ active: isToggle, disabled: !isToggle }"
     >
+    {{langImgSrc}}
       <div class="nav--mobile__header">
         <div class="nav--mobile__language">
           <button class="dropdown-toggle__btn" @click="onCLickSelectedLangBtn" >
@@ -114,12 +115,20 @@
 <script>
 export default {
   data() {
+    console.log(this.$i18n.locale);
     return {
       scrollPosition: null,
       isToggle: false,
-      langImgSrc: "vi.png",
+      langImgSrc: `${this.$i18n.locale}.png`,
       isSelected: false,
     };
+  },
+  created: function () {
+    if (process.browser) {
+      if (localStorage.getItem("lang")) {
+        this.$i18n.locale = localStorage.getItem("lang");
+      }
+    }
   },
   methods: {
     onClickToggle: function () {
