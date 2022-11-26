@@ -1,13 +1,10 @@
 <template>
   <section id="games">
     <div class="container-fluid container-lg">
-      <div class="text-center">
-        <h1>Our Games</h1>
-        <p>
-          As a pioneer of mobile app gamification, we take pride in originality
-          and individuality, providing global players with state-of-the-art
-          games that feature splendid storylines, sensational sound effects and
-          magnificent animation that never cease to impress.
+      <div class="text-center mb-5">
+        <h2 class="games--title">{{ $t("our_games") }}</h2>
+        <p class="games--decription">
+          {{ $t("games_decription") }}
         </p>
       </div>
       <ListCard />
@@ -23,4 +20,24 @@ export default {
 </script>
 
 <style>
+#games{
+  padding: 100px 0 0;
+}
+.games--title {
+  font-family: Playfair Display;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: 3.6px;
+  color: #000;
+  margin-bottom: 0;
+}
+.games--decription {
+  max-width: 860px;
+  margin: 24px auto 0;
+  color: #757575;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
 </style>
