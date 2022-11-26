@@ -16,7 +16,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="css" scoped>
 .card1 {
   height: 100%;
   overflow: hidden;

@@ -4,11 +4,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     />
-    <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-      />
     <!-- <Games /> -->
     <Partners />
     <h1 class="text-3xl font-bold underline">Hello world!</h1>
@@ -32,22 +27,9 @@
   </div>
 </template>
 
-<script
-type="text/javascript"
-src="https://code.jquery.com/jquery-1.11.0.min.js"
-></script>
-<script
-type="text/javascript"
-src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-></script>
-<script
-type="text/javascript"
-src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-></script>
 <script>
 import Games from "../components/gameList/Games.vue";
-import Partners from '../components/partners/Partners.vue';
-
+import Partners from "../components/partners/Partners.vue";
 export default {
   components: { Games, Partners },
   name: "IndexPage",
