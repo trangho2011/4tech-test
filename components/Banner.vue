@@ -220,7 +220,7 @@ export default {
     width: 100%;
     height: 0;
     padding-top: 69%;
-    max-width: 325px;
+    max-width: 315px;
     margin: -160px 0 0 15%;
   }
   .banner--content {
