@@ -30,7 +30,7 @@
         <div class="banner--form__email">
           <input
             type="text"
-            placeholder="Enter your email"
+            :placeholder="$t('mail_placeholder_1')"
             class="form-control"
           />
           <a href="mailto:">

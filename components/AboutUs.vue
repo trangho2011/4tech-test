@@ -11,7 +11,7 @@
                   {{ $t("about_us_excerpt") }}
                 </div>
               </div>
-              <ul class="about-us--list">
+              <ul class="row about-us--list">
                 <li class="col-6 col-md-12">
                   <p class="-number">600<span>M</span>+</p>
                   <p class="-text">{{ $t("users") }}</p>
@@ -86,7 +86,7 @@ export default {};
   visibility: visible;
   animation-name: fadeInLeft;
 }
-.about-us--title{
+.about-us--title {
   font-family: Playfair Display;
   font-weight: 900;
   font-size: 60px;
@@ -170,10 +170,16 @@ export default {};
   .about-us--box {
     padding: 60px 40px;
   }
+  .about-us--list .-number {
+    font-size: 60px;
+  }
 }
 @media screen and (max-width: 911px) {
   .about-us--box {
     margin-top: 40px 16px;
+  }
+  .about-us--list .-number {
+    font-size: 40px;
   }
 }
 /* pattern*/

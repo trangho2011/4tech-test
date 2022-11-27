@@ -1,31 +1,59 @@
 <template>
   <section id="partners">
     <div class="partners-wrap">
-      <h2 class="partners--title">Our Partners</h2>
+      <h2 class="partners--title">{{ $t("our_partners") }}</h2>
       <div id="partners" class="container">
         <div class="row">
           <div class="col-sm-12">
             <VueSlickCarousel :arrows="true" :dots="false" v-bind="settings">
               <div class="slider--image">
-                <img src="../static/image/logo-game-1.svg" alt="" />
+                <img
+                  class="slider--img"
+                  src="../static/image/logo-game-1.svg"
+                  alt=""
+                />
               </div>
               <div class="slider--image">
-                <img src="../static/image/logo-game-2.svg" alt="" />
+                <img
+                  class="slider--img"
+                  src="../static/image/logo-game-2.svg"
+                  alt=""
+                />
               </div>
               <div class="slider--image">
-                <img src="../static/image/logo-game-3.svg" alt="" />
+                <img
+                  class="slider--img"
+                  src="../static/image/logo-game-3.svg"
+                  alt=""
+                />
               </div>
               <div class="slider--image">
-                <img src="../static/image/logo-game-4.svg" alt="" />
+                <img
+                  class="slider--img"
+                  src="../static/image/logo-game-4.svg"
+                  alt=""
+                />
               </div>
               <div class="slider--image">
-                <img src="../static/image/logo-game-5.svg" alt="" />
+                <img
+                  class="slider--img"
+                  src="../static/image/logo-game-5.svg"
+                  alt=""
+                />
               </div>
               <div class="slider--image">
-                <img src="../static/image/logo-game-6.svg" alt="" />
+                <img
+                  class="slider--img"
+                  src="../static/image/logo-game-6.svg"
+                  alt=""
+                />
               </div>
               <div class="slider--image">
-                <img src="../static/image/logo-game-7.svg" alt="" />
+                <img
+                  class="slider--img"
+                  src="../static/image/logo-game-7.svg"
+                  alt=""
+                />
               </div>
             </VueSlickCarousel>
           </div>
@@ -78,8 +106,8 @@ export default {
             breakpoint: 576,
             settings: {
               slidesToShow: 1,
-              dots: true,
-              arrows: false,
+              // dots: true,
+              // arrows: false,
             },
           },
         ],
@@ -91,6 +119,9 @@ export default {
 <style>
 #partners {
   padding: 50px 0 0;
+}
+.slider--img {
+  margin: 0 auto;
 }
 .slider--image {
   transition: all 0.5s ease-in-out;

@@ -104,10 +104,10 @@
         </div>
       </div>
       <ul class="nav__mobile--ul">
-        <li class="menu-item"><a href="#about-us">{{ $t("about_us") }}</a></li>
-        <li class="menu-item"><a href="#games">{{ $t("games") }}</a></li>
-        <li class="menu-item"><a href="#partners">{{ $t("partners") }}</a></li>
-        <li class="menu-item"><a href="#contact-us">{{ $t("contact_us") }}</a></li>
+        <li class="menu-item"  v-on:click="onClickToggle"><a href="#about-us">{{ $t("about_us") }}</a></li>
+        <li class="menu-item"  v-on:click="onClickToggle"><a href="#games">{{ $t("games") }}</a></li>
+        <li class="menu-item"  v-on:click="onClickToggle"><a href="#partners">{{ $t("partners") }}</a></li>
+        <li class="menu-item"  v-on:click="onClickToggle"><a href="#contact-us">{{ $t("contact_us") }}</a></li>
       </ul>
     </div>
   </section>

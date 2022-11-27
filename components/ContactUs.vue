@@ -61,7 +61,7 @@
               <div class="contact-us--form__email">
                 <input
                   type="text"
-                  placeholder="Enter your email"
+                  :placeholder="$t('mail_placeholder_2')"
                   class="form-control contact-us"
                 />
                 <a href="mailto:">

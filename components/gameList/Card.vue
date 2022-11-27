@@ -51,4 +51,14 @@ p {
 .card1:hover img {
   transform: scale(1.1);
 }
+@media screen and (max-width: 1199px) {
+  h2 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 911px) {
+  h2 {
+    font-size: 25px;
+  }
+}
 </style>
