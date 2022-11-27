@@ -9,16 +9,16 @@
         </a>
         <div class="header--list-item">
           <div class="header--item">
-            <a class="header--item__link active" href="#">{{ $t("about_us") }}</a>
+            <a class="header--item__link active" href="#about-us">{{ $t("about_us") }}</a>
           </div>
           <div class="header--item">
-            <a class="header--item__link" href="#">{{ $t("games") }}</a>
+            <a class="header--item__link" href="#games">{{ $t("games") }}</a>
           </div>
           <div class="header--item">
-            <a class="header--item__link" href="#">{{ $t("partners") }}</a>
+            <a class="header--item__link" href="#partners">{{ $t("partners") }}</a>
           </div>
           <div class="header--item">
-            <a class="header--item__link" href="#">{{ $t("contact_us") }}</a>
+            <a class="header--item__link" href="#contact-us">{{ $t("contact_us") }}</a>
           </div>
           <div class="header--item">
             <button class="header--dropdown-toggle" @click="onCLickSelectedLangBtn" >
@@ -62,11 +62,11 @@
       class="nav-wrap__mobile"
       :class="{ active: isToggle, disabled: !isToggle }"
     >
-    {{langImgSrc}}
-      <div class="nav--mobile__header">
+      <div class="nav--mobile__header" >
         <div class="nav--mobile__language">
           <button class="dropdown-toggle__btn" @click="onCLickSelectedLangBtn" >
-              <img  alt="" v-bind:src="'/_nuxt/static/' + langImgSrc"/>
+             <img v-if="langImgSrc == 'vi.png'" alt=""  src="../static/vi.png"/>
+             <img v-if="langImgSrc == 'en.png'" alt=""  src="../static/en.png"/>
             </button>
           <div class="header--item">
             <ul
@@ -115,7 +115,6 @@
 <script>
 export default {
   data() {
-    console.log(this.$i18n.locale);
     return {
       scrollPosition: null,
       isToggle: false,
@@ -148,6 +147,8 @@ export default {
       if (process.browser) {
         localStorage.setItem("lang", "en");
       }
+      this.isSelected = false;
+
     },
     onClickViLang: function () {
       this.langImgSrc = "vi.png";
@@ -160,6 +161,7 @@ export default {
       if (process.browser) {
         localStorage.setItem("lang", "vi");
       }
+      this.isSelected = false;
     },
     onCLickSelectedLangBtn: function () {
       this.isSelected = !this.isSelected;
@@ -415,6 +417,7 @@ export default {
   background: #fff;
   padding-left: 35px;
   display: flex;
+  align-items: center;
 }
 .header--dropdown-item:first-of-type {
   border-bottom: 1px solid rgb(60, 60, 60);

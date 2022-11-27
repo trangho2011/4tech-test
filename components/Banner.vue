@@ -205,7 +205,7 @@ export default {
 .banner--pattern {
   position: absolute;
   left: 0;
-  bottom: -2%;
+  bottom: -20%;
   width: 44.5%;
   height: 91%;
   background-image: url(../static/banner-pattern-fairy.png);
