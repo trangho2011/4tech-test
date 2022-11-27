@@ -178,7 +178,7 @@ export default {
 <style>
 .header-wrap {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   top: 0;
   left: 0;
   padding: 20px 0;

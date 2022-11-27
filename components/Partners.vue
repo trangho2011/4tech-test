@@ -143,6 +143,7 @@ export default {
   border-radius: 12px;
   background-color: #cccccc;
   background-image: url(../static/icon-arrow-square-left.svg);
+  position: relative;
 }
 
 .slick-next:before {
@@ -159,6 +160,7 @@ export default {
   border-radius: 12px;
   background-color: #cccccc;
   background-image: url(../static/icon-arrow-square-right.svg);
+  position: relative;
 }
 .partners-wrap {
   background: #f6f6f6;
@@ -174,5 +176,13 @@ export default {
   margin-bottom: 0;
   text-align: center;
   margin-bottom: 40px;
+}
+@media screen and (max-width: 576px) {
+  .slick-next:before {
+    transform: translateX(-50px);
+  }
+  .slick-prev:before {
+    transform: translateX(35px);
+  }
 }
 </style>
