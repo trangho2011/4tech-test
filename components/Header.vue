@@ -22,7 +22,8 @@
           </div>
           <div class="header--item">
             <button class="header--dropdown-toggle" @click="onCLickSelectedLangBtn" >
-              <img  alt="" v-bind:src="'/_nuxt/static/' + langImgSrc"/>
+              <img v-if="langImgSrc == 'vi.png'" alt=""  src="../static/vi.png"/>
+              <img v-if="langImgSrc == 'en.png'" alt=""  src="../static/en.png"/>
             </button>
             <ul
               class="dropdown-menu dropdown-menu-xl-end show"
@@ -148,7 +149,6 @@ export default {
         localStorage.setItem("lang", "en");
       }
       this.isSelected = false;
-
     },
     onClickViLang: function () {
       this.langImgSrc = "vi.png";
