@@ -20,18 +20,18 @@ export default {
       {
         href: "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css",
         rel: "stylesheet",
+        crossorigin: "anonymous",
         integrity:
           "sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC",
-   
       },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: true },
       {
         href: "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap",
         rel: "stylesheet",
       },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: true },
       {
         href: "https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap",
         rel: "stylesheet",
