@@ -438,7 +438,7 @@ export default {
   left: 0;
   width: 24px;
   height: 24px;
-  /* background: url(../static/icon-tick.svg); */
+  background: url(../static/icon-tick.png);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 1;
