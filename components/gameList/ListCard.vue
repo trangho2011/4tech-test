@@ -46,73 +46,73 @@ export default {
           title: "E-Space",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/e-space.svg"),
+          img: require("../../static/image/e-space.png"),
         },
         {
           title: "Pirates",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/Pirates.svg"),
+          img: require("../../static/image/Pirates.png"),
         },
         {
           title: "Magic tree",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/magic-tree.svg"),
+          img: require("../../static/image/magic-tree.png"),
         },
         {
           title: "Kingland",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/Kingland.svg"),
+          img: require("../../static/image/Kingland.png"),
         },
         {
           title: "Witch Party",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/witch-party.svg"),
+          img: require("../../static/image/witch-party.png"),
         },
         {
           title: "Aborigines",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/Aborigines.svg"),
+          img: require("../../static/image/Aborigines.png"),
         },
         {
           title: "The Last Game",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/the-last-game.svg"),
+          img: require("../../static/image/the-last-game.png"),
         },
         {
           title: "Rocky",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/Rocky.svg"),
+          img: require("../../static/image/Rocky.png"),
         },
         {
           title: "Cinderella",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/Cinderella.svg"),
+          img: require("../../static/image/Cinderella.png"),
         },
         {
           title: "G-Dragon",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/g-dragon.svg"),
+          img: require("../../static/image/g-dragon.png"),
         },
         {
           title: "Blue Fire",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/blue-fire.svg"),
+          img: require("../../static/image/blue-fire.png"),
         },
         {
           title: "Egypt Game",
           decription:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          img: require("../../static/image/egypt-game.svg"),
+          img: require("../../static/image/egypt-game.png"),
         },
       ];
       data.forEach((d, index) => {

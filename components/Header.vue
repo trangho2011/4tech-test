@@ -4,7 +4,7 @@
       <div class="header">
         <a src="#" class="header--logo__link">
           <div class="header--logo">
-            <img src="../static/logo.svg" alt="logo" />
+            <img src="../static/logo.png" alt="logo" />
           </div>
         </a>
         <div class="header--list-item">
@@ -438,7 +438,7 @@ export default {
   left: 0;
   width: 24px;
   height: 24px;
-  background: url(../static/icon-tick.svg);
+  /* background: url(../static/icon-tick.svg); */
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 1;

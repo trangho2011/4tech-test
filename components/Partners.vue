@@ -9,49 +9,49 @@
               <div class="slider--image">
                 <img
                   class="slider--img"
-                  src="../static/image/logo-game-1.svg"
+                  src="../static/image/logo-game-1.png"
                   alt=""
                 />
               </div>
               <div class="slider--image">
                 <img
                   class="slider--img"
-                  src="../static/image/logo-game-2.svg"
+                  src="../static/image/logo-game-2.png"
                   alt=""
                 />
               </div>
               <div class="slider--image">
                 <img
                   class="slider--img"
-                  src="../static/image/logo-game-3.svg"
+                  src="../static/image/logo-game-3.png"
                   alt=""
                 />
               </div>
               <div class="slider--image">
                 <img
                   class="slider--img"
-                  src="../static/image/logo-game-4.svg"
+                  src="../static/image/logo-game-4.png"
                   alt=""
                 />
               </div>
               <div class="slider--image">
                 <img
                   class="slider--img"
-                  src="../static/image/logo-game-5.svg"
+                  src="../static/image/logo-game-5.png"
                   alt=""
                 />
               </div>
               <div class="slider--image">
                 <img
                   class="slider--img"
-                  src="../static/image/logo-game-6.svg"
+                  src="../static/image/logo-game-6.png"
                   alt=""
                 />
               </div>
               <div class="slider--image">
                 <img
                   class="slider--img"
-                  src="../static/image/logo-game-7.svg"
+                  src="../static/image/logo-game-7.png"
                   alt=""
                 />
               </div>

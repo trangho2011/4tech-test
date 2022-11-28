@@ -7,7 +7,7 @@
             class="col-md-4 text-center text-md-start contact-us--logo__wrap"
           >
             <div class="contact-us--logo">
-              <img src="../static/logo.svg" alt="" />
+              <img src="../static/logo.png" alt="" />
             </div>
             <ul
               class="
